@@ -1,0 +1,71 @@
+<!-- il browser ha un css d'ufficio che se non forzo io viene applicato che determina
+    le caratteristiche di alcuni elementi magari in maniera differente da altri browser -->
+<!-- Opzionale tanto lo aggiunge il browser -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Digitazon School</title>
+
+  <!-- Questo è un commento -->
+  <!--tag per importare il css -->
+  <!-- stylesheet foglio di stile -->
+  <!-- Che tipo di file è -->
+  <!-- link a css è dove è situato il mio css, a noi sta nella stessa cartella quindi non ho percorsi strani -->
+  <link rel="stylesheet" type="text/css" href="mycss.css" />
+
+</head>
+
+<body>
+<!--div divide la pagina in aree logiche, tipicamente contiene altri tag e altri div anche elementi css -->
+  <div class="container">
+    <!-- Il resto del tuo codice HTML -->
+
+    <h1>Benvenuti nel nostro sito web!</h1>
+    <h6>Sono un titolo h6, molto più piccolo</h6>
+    <!-- il paragrafo specifica che questo è untesto (puoi farlo anche con div ma è formalmente meno corretto) -->
+<!-- class insieme di regole del css che si ripetono su più elementi css -->
+    <p class="intro">Sono felice che <br> tu abbia deciso di visitare il nostro sito web.</p>
+    <p>Qui troverai molte informazioni interessanti su vari argomenti.</p>
+<!-- id: identificatore univoco -->
+    <div id="list">
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Il nostro ultimo articolo:</h2>
+      <p>Scopri come programmare in HTML e CSS.</p>
+<!-- for è attribbuto che spcifica: questo è un'entichetta per questa fonte -->
+      <label for="my-select">Scegli il tuo anno:</label>
+      <select id="my-select">
+        <option value="">-</option>
+        <option value="1987">1987</option>
+        <option value="1988">1988</option>
+        <option value="1989">1989</option>
+      </select>
+
+      <button id="my-button">Clicca qui per leggere di più</button>
+
+      <!-- alt: alternativa al testo -->
+      <div>
+        <img src="https://global-uploads.webflow.com/6331a5ff0645eb336e91914c/63527b0d1b59e366203584ee_digitazon.svg"
+          width="250px" height="300px" alt="Digitazon" />
+      </div>
+
+      <div>
+        <!-- Collegamento ipertestuale -->
+        <a href="https://www.digitazon.school/" target="_blank">Visita il sito</a>
+        <a href="https://www.sitomaivisitato.com">Pagina mai visitata</a>
+      </div>
+
+    </div>
+  </div>
+   <!-- Importo file JavaScript -->
+   <script src="myScript.js"></script>
+</body>
+
+</html>
