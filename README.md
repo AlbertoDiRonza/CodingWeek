@@ -1,2 +1,1 @@
-# CodingWeek
-Contiene file HTML e CSS della Coding Week. Concetti base di HTML e CSS.
+Primo apporccio ai concetti di base della programmazione con HTML, CSS e JAVASCRIPT, esercizi svolti seguendo il programma Coding Week di Boolean.
